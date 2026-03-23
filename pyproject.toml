@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alias-vault"
+version = "0.1.0"
+description = "Centralized shell alias manager with sync, search, and usage analytics"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Alias Vault Contributors"}]
+keywords = ["shell", "alias", "bash", "zsh", "fish", "terminal", "productivity"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Shells",
+]
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+alias-vault = "alias_vault.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/alias-vault/alias-vault"
+Issues = "https://github.com/alias-vault/alias-vault/issues"
