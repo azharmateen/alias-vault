@@ -1,5 +1,8 @@
 # Alias Vault
 
+[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blue?logo=anthropic&logoColor=white)](https://claude.ai/code)
+
+
 **Your aliases are scattered across `.bashrc`, `.zshrc`, `.config/fish/config.fish`, and a dozen other files.** Alias Vault puts them all in one searchable, exportable database.
 
 ```
